@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+ol {
+  list-style-type: none;
+}
+
+/* body */
+body {
+    background: #FFFFFF;
+}
+footer {
+    margin-top: 40px;
+}
+
+/* navbar */
+.navbar {
+    background-color: #F7819F;
+
+}
+.navbar-header .navbar-brand {
+    color: #fff;
+}
+
+/* keyword select */
+#wrapper {
+    width: 984px;
+    margin: 0 auto;
+}
+
+#main {
+    width: 800px;
+    float: right;
+    font-size: 10px;
+}
+
+#sidebar {
+    width: 150px;
+    float: left;
+    margin-left: 0;
+    font-size: 10px;
+}
+
+#main_top {
+    margin-right: 0;
+    float: right;
+;
+}
+
+#sidebar_top {
+    margin-left: 0;
+    width: 300px;
+    float: left;
+
+    font-size: 8px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.table-striped{
+    font-size: 10px;
+}
